@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>获取json</button>
+</body>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script>
+    $('button').click(function(){
+        $.ajax({
+            type:'GET',
+            url:'http://localhost:3000/first',
+            headers:{
+                "Conten-Type":"http://localhost:3000/first"
+            },
+            success:function (backDate) {
+                // body...
+                console.log(backDate);
+            }
+        })
+    })
+</script>
+</html>
