@@ -12970,7 +12970,6 @@ const state = {
     },
     type: ["个人日志", "休闲", "其他"],
     list: []
-
 };
 //跨域访问node中的数据
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.http.get("http://localhost:3000/first").then(function (res) {
@@ -13058,7 +13057,7 @@ var Component = __webpack_require__(2)(
   /* script */
   __webpack_require__(21),
   /* template */
-  __webpack_require__(41),
+  __webpack_require__(43),
   /* styles */
   null,
   /* scopeId */
@@ -13066,7 +13065,7 @@ var Component = __webpack_require__(2)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "F:\\mywork\\dailyManage\\components\\addDiary.vue"
+Component.options.__file = "F:\\mywork\\daily\\components\\addDiary.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] addDiary.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -13077,9 +13076,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3c32c4a8", Component.options)
+    hotAPI.createRecord("data-v-b0f5ed32", Component.options)
   } else {
-    hotAPI.reload("data-v-3c32c4a8", Component.options)
+    hotAPI.reload("data-v-b0f5ed32", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -13098,7 +13097,7 @@ var Component = __webpack_require__(2)(
   /* script */
   __webpack_require__(22),
   /* template */
-  __webpack_require__(42),
+  __webpack_require__(41),
   /* styles */
   null,
   /* scopeId */
@@ -13106,7 +13105,7 @@ var Component = __webpack_require__(2)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "F:\\mywork\\dailyManage\\components\\detail.vue"
+Component.options.__file = "F:\\mywork\\daily\\components\\detail.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] detail.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -13117,9 +13116,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3efc035b", Component.options)
+    hotAPI.createRecord("data-v-5f2821d6", Component.options)
   } else {
-    hotAPI.reload("data-v-3efc035b", Component.options)
+    hotAPI.reload("data-v-5f2821d6", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -13146,7 +13145,7 @@ var Component = __webpack_require__(2)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "F:\\mywork\\dailyManage\\components\\header.vue"
+Component.options.__file = "F:\\mywork\\daily\\components\\header.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] header.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -13157,9 +13156,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-1ac160d2", Component.options)
+    hotAPI.createRecord("data-v-12cb6e12", Component.options)
   } else {
-    hotAPI.reload("data-v-1ac160d2", Component.options)
+    hotAPI.reload("data-v-12cb6e12", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -13182,7 +13181,7 @@ var Component = __webpack_require__(2)(
   /* script */
   __webpack_require__(23),
   /* template */
-  __webpack_require__(43),
+  __webpack_require__(42),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -13190,7 +13189,7 @@ var Component = __webpack_require__(2)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "F:\\mywork\\dailyManage\\components\\main.vue"
+Component.options.__file = "F:\\mywork\\daily\\components\\main.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] main.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -13201,9 +13200,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-88bcdd7a", Component.options)
+    hotAPI.createRecord("data-v-80addb04", Component.options)
   } else {
-    hotAPI.reload("data-v-88bcdd7a", Component.options)
+    hotAPI.reload("data-v-80addb04", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -19248,118 +19247,12 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-1ac160d2", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-12cb6e12", module.exports)
   }
 }
 
 /***/ }),
 /* 41 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('form', [_c('div', {
-    staticClass: "dirBox"
-  }, [_c('p', {
-    staticClass: "dirsubTitle"
-  }, [_c('input', {
-    directives: [{
-      name: "model",
-      rawName: "v-model",
-      value: (_vm.newDia.title),
-      expression: "newDia.title"
-    }],
-    attrs: {
-      "placeholder": "请输入标题",
-      "type": "text"
-    },
-    domProps: {
-      "value": (_vm.newDia.title)
-    },
-    on: {
-      "input": function($event) {
-        if ($event.target.composing) { return; }
-        _vm.newDia.title = $event.target.value
-      }
-    }
-  })]), _vm._v(" "), _c('p', {
-    staticClass: "dirContent"
-  }, [_c('textarea', {
-    directives: [{
-      name: "model",
-      rawName: "v-model",
-      value: (_vm.newDia.content),
-      expression: "newDia.content"
-    }],
-    domProps: {
-      "value": (_vm.newDia.content)
-    },
-    on: {
-      "input": function($event) {
-        if ($event.target.composing) { return; }
-        _vm.newDia.content = $event.target.value
-      }
-    }
-  })])]), _vm._v(" "), _c('div', {
-    staticClass: "typePosition"
-  }, [_c('label', {
-    staticClass: "dirType"
-  }, [_vm._v("类型：")]), _vm._v(" "), _c('select', {
-    directives: [{
-      name: "model",
-      rawName: "v-model",
-      value: (_vm.newDia.type),
-      expression: "newDia.type"
-    }],
-    staticClass: "select",
-    on: {
-      "change": function($event) {
-        var $$selectedVal = Array.prototype.filter.call($event.target.options, function(o) {
-          return o.selected
-        }).map(function(o) {
-          var val = "_value" in o ? o._value : o.value;
-          return val
-        });
-        _vm.newDia.type = $event.target.multiple ? $$selectedVal : $$selectedVal[0]
-      }
-    }
-  }, [_c('option', {
-    attrs: {
-      "value": "个人日志"
-    }
-  }, [_vm._v("个人日志")]), _vm._v(" "), _c('option', {
-    attrs: {
-      "value": "休闲"
-    }
-  }, [_vm._v("休闲")]), _vm._v(" "), _c('option', {
-    attrs: {
-      "value": "其他"
-    }
-  }, [_vm._v("其他")])])]), _vm._v(" "), _c('div', {
-    staticClass: "btnPosition"
-  }, [_c('a', {
-    staticClass: "publish",
-    on: {
-      "click": function($event) {
-        _vm.publish()
-      }
-    }
-  }, [_vm._v("发表")]), _vm._v(" "), _c('router-link', {
-    staticClass: "cancel",
-    attrs: {
-      "to": "/foo"
-    }
-  }, [_vm._v("取消")])], 1)])
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-3c32c4a8", module.exports)
-  }
-}
-
-/***/ }),
-/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -19373,12 +19266,12 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-3efc035b", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-5f2821d6", module.exports)
   }
 }
 
 /***/ }),
-/* 43 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -19539,7 +19432,113 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-88bcdd7a", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-80addb04", module.exports)
+  }
+}
+
+/***/ }),
+/* 43 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('form', [_c('div', {
+    staticClass: "dirBox"
+  }, [_c('p', {
+    staticClass: "dirsubTitle"
+  }, [_c('input', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: (_vm.newDia.title),
+      expression: "newDia.title"
+    }],
+    attrs: {
+      "placeholder": "请输入标题",
+      "type": "text"
+    },
+    domProps: {
+      "value": (_vm.newDia.title)
+    },
+    on: {
+      "input": function($event) {
+        if ($event.target.composing) { return; }
+        _vm.newDia.title = $event.target.value
+      }
+    }
+  })]), _vm._v(" "), _c('p', {
+    staticClass: "dirContent"
+  }, [_c('textarea', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: (_vm.newDia.content),
+      expression: "newDia.content"
+    }],
+    domProps: {
+      "value": (_vm.newDia.content)
+    },
+    on: {
+      "input": function($event) {
+        if ($event.target.composing) { return; }
+        _vm.newDia.content = $event.target.value
+      }
+    }
+  })])]), _vm._v(" "), _c('div', {
+    staticClass: "typePosition"
+  }, [_c('label', {
+    staticClass: "dirType"
+  }, [_vm._v("类型：")]), _vm._v(" "), _c('select', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: (_vm.newDia.type),
+      expression: "newDia.type"
+    }],
+    staticClass: "select",
+    on: {
+      "change": function($event) {
+        var $$selectedVal = Array.prototype.filter.call($event.target.options, function(o) {
+          return o.selected
+        }).map(function(o) {
+          var val = "_value" in o ? o._value : o.value;
+          return val
+        });
+        _vm.newDia.type = $event.target.multiple ? $$selectedVal : $$selectedVal[0]
+      }
+    }
+  }, [_c('option', {
+    attrs: {
+      "value": "个人日志"
+    }
+  }, [_vm._v("个人日志")]), _vm._v(" "), _c('option', {
+    attrs: {
+      "value": "休闲"
+    }
+  }, [_vm._v("休闲")]), _vm._v(" "), _c('option', {
+    attrs: {
+      "value": "其他"
+    }
+  }, [_vm._v("其他")])])]), _vm._v(" "), _c('div', {
+    staticClass: "btnPosition"
+  }, [_c('a', {
+    staticClass: "publish",
+    on: {
+      "click": function($event) {
+        _vm.publish()
+      }
+    }
+  }, [_vm._v("发表")]), _vm._v(" "), _c('router-link', {
+    staticClass: "cancel",
+    attrs: {
+      "to": "/foo"
+    }
+  }, [_vm._v("取消")])], 1)])
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-b0f5ed32", module.exports)
   }
 }
 
@@ -19554,13 +19553,13 @@ var content = __webpack_require__(32);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(45)("4dafe8b4", content, false);
+var update = __webpack_require__(45)("364b2794", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-88bcdd7a\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./main.vue", function() {
-     var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-88bcdd7a\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./main.vue");
+   module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-80addb04\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./main.vue", function() {
+     var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-80addb04\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./main.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
